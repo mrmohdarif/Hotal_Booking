@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./hotalivon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css">
+  <title>Hotal Booking</title>
+</head>
+
+<body>
+  <div class="modals">
+  <div class="main_heading">
+    <h1>Hotal Booking Registration</h1>
+  </div>
+  <div class="Customer_Deatails">Customer Deatails</div>
+  <div>
+    <div>
+      <form class="form">
+        <div class="input1">
+          <label for="name" class="labal1 labal">Customer Name:</label>
+          <input type="text" name="name" id="name" class="input_form form_input1" />
+        </div>
+        <div class="input2">
+          <label for="date" class="labal2 labal">Check in Date:</label>
+          <input type="date" name="date" id="date" class="input_form form_input2" />
+        </div>
+
+        <div class="input3">
+          <label for="days" class="labal3 labal">Total Number of Days:</label>
+          <input type="number" name="days" id="days" class="input_form form_input3" />
+        </div>
+
+        <div class="input4">
+          <label for="person" class="labal4 labal">Total No of person:</label>
+          <input type="number" name="person" id="person" class="input_form form_input4" />
+        </div>
+
+
+      </form>
+    </div>
+  </div>
+  <div class="Room_Type">Select Room Type</div>
+  <div>
+    <div>
+      <div class="type1">
+        <form action="">
+          <div class="type">
+            <div class="">
+              <img
+                src="https://images.pexels.com/photos/3144580/pexels-photo-3144580.jpeg?auto=compress&cs=tinysrgb&w=400"
+                width="300px" class="room_type_1_img" />
+              <br />
+              <p>Price:<span class="Room_price_deluxe">2500</span></p>
+              <label for="Delux" style="font-size: 20px">Delux Room</label>
+              <input type="radio" name="room" id="Delux" value="Delux" class="delux_room">
+            </div>
+            <div>
+              <img
+                src="https://images.unsplash.com/photo-1626868449668-fb47a048d9cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aG90ZWwlMjBzdWl0ZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                width="300px" class="room_type_2_img" />
+              <br />
+              <p>Price:<span class="Room_price_suite">4000</span></p>
+              <label for="suite" style="font-size: 20px">Suite Room</label>
+              <input type="radio" name="room" id="suite" value="Suite Room" class="suite_room">
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div>
+      </div>
+    </div>
+    <div class="Aminites">
+      Select Aminites
+    </div>
+    <div class="Aminites_div">
+      <form action="">
+        <div class="ac_locker_feature">
+          <div class="">
+            <img src="https://www.transparentpng.com/thumb/ac/HY2tmy-air-conditioning-simple-image.png" width="300px"
+              height="250px" alt="ac_image" class="locker_ac">
+            <br />
+            <p>Price:<span class="aminites_ac">1000</span></p>
+            <label for="ac" class="ac">Ac</label>
+            <input type="radio" name="aminites" id="ac" value="Ac" class="ac_aminites">
+          </div>
+          <div>
+            <img
+              src="https://images.pexels.com/photos/8530818/pexels-photo-8530818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              width="300px" height="250px" alt="locker_image" class="locker_locker">
+            <br />
+            <p>Price:<span class="aminites_locker">300</span></p>
+            <label for="locker" class="locker">Locker</label>
+            <input type="radio" name="aminites" id="locker" value="Locker" class="locker_aminites">
+          </div>
+        </div>
+      </form>
+
+    </div>
+    <div class="Advance_Amount">Advance Amount</div>
+    <div class="Advance_Amount_form">
+      <form action="">
+        <label for="Advance_amount" class="amount">Advance Amount:</label>
+        <input type="number" name="Advance_amount" id="Advance_amount" class="amount_input" />
+      </form>
+    </div>
+    <button class="register_button" onclick="show_detail()">Register</button>
+    </div>
+    <div class="output ">
+      <h1 class="Booking_details">Booking Details</h1>
+      <div class="details">
+
+        <div class="details_div_1">
+          <p class="book_details_p">Customer Name:</p>
+          <p class="book_details_p">Check-in Date:</p>
+          <p class="book_details_p">Total No of Days:</p>
+          <p class="book_details_p">Total No of Person:</p>
+          <p class="book_details_p">Room Type:</p>
+          <p class="book_details_p">Aminites:</p>
+          <p class="book_details_p">Advance Amount:</p>
+          <p class="book_details_p">Balance Amount:</p>
+        </div>
+        <div class="details_div_2">
+          <p class="name_customer text"></p>
+          <p class="date text"></p>
+          <p class="days text"></p>
+          <p class="total_person text"></p>
+          <p class="roon_type_details text"></p>
+          <p class="Aminites_both_locker text"></p>
+          <p class="addvance_amount text"></p>
+          <p class="balance_amount text"></p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

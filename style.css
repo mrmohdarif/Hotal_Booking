@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+}
+.main_heading{
+    text-align: center;
+    border: 3px solid black;
+    padding: 10px 0px;
+    margin-bottom:5px;
+}
+.Customer_Deatails,.Room_Type,.Aminites,.Advance_Amount{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    padding: 10px 0px;
+    margin-bottom:5px;
+}
+.form{
+    height: 300px;
+   border: 2px solid black;
+   margin-bottom:5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+.type{
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+}
+.type1{
+    margin-bottom: 5px;
+}
+.Aminites_div{
+    border: 3px solid black;
+    padding: 10px 0px;
+    margin-bottom: 5px;
+}
+.room_type_1_img{
+    border-radius: 10px;
+}
+.room_type_2_img{
+    border-radius: 10px;
+}
+.ac_locker_feature
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+.locker_ac,.locker_locker{
+    border: 2px solid red;
+    border-radius: 20px;
+}
+.ac,.locker{
+    font-size: 22px;
+}
+.Advance_Amount_form{
+    /* border: 3px solid red;
+    width: 500px;
+    margin: auto; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.Advance_Amount_form{
+    border: 3px solid ;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+}
+.amount{
+    font-size: 22px;
+    font-weight: bold;
+}
+.amount_input{
+ width: 300px;
+ padding: 5px;
+ font-size: 20px;
+}
+.register_button{
+    display: flex;
+    background-color: #164B60;
+    padding: 10px 40px;
+    font-size: 20px;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.register_button:hover
+{
+    background-color: #1B6B93;
+    transition: 1s;
+}
+.input1,.input2,.input3,.input4{
+    display: flex;
+    justify-content: space-evenly;
+}
+.labal{
+    font-size: 22px;
+}
+.label2
+{
+    margin-left: -60px;
+}
+.input_form{
+    width: 300px;
+    padding: 10px;
+    font-size: 18px;
+}
+.form_input3{
+ margin-left: -70px;
+}
+.Booking_details{
+   text-align: center;
+   margin: 20px 0px;
+}
+.output{
+ 
+    display: none;
+    
+}
+
+.details{
+display: flex;
+justify-content: space-evenly;
+border: 3px solid black;
+}
+.book_details_p{
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.text{
+    font-size: 26px;
+    margin-bottom: 15px;
+   
+}
+.modals{
+    padding: 20px;
+}
