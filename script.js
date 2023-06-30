@@ -85,11 +85,31 @@ function show_detail()
     {
         let Aminites_both_locker=document.querySelector('.Aminites_both_locker').innerText=locker_aminites.value   
     }
-let name_customer=document.querySelector('.name_customer').innerText=name
-let date=document.querySelector('.date').innerText=Check_in_Date
-let days=document.querySelector('.days').innerText=Total_Number_of_Days
-let total_person=document.querySelector('.total_person').innerText=Total_No_of_person
-let addvance_amount=document.querySelector('.addvance_amount').innerText=amount_input
+    
+    
+      let name_customer=document.querySelector('.name_customer').innerText=name
+    
+   
+    
+      let date=document.querySelector('.date').innerText=Check_in_Date
+    
+  
+      
+         let days=document.querySelector('.days').innerText=Total_Number_of_Days
+    
+   
+    
+      let total_person=document.querySelector('.total_person').innerText=Total_No_of_person
+  
+    
+   
+    
+      let addvance_amount=document.querySelector('.addvance_amount').innerText=amount_input
+   
+ 
+    
+      console.log("Advance amount is mandatary");
+  
 // let Aminites_both_locker=document.querySelector('.Aminites_both_locker').innerText
   let display_details=document.querySelector('.output')
   display_details.classList.remove('output')
