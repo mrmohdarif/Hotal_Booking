@@ -120,7 +120,7 @@ function reset(){
   let Total_Number_of_Days=document.querySelector('.form_input3').value=''
 let Total_No_of_person=document.querySelector('.form_input4').value=''
   let amount_input=document.querySelector('.amount_input').value=''
-  
+  window.location.reload()
 }
 
 
